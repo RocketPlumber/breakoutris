@@ -1,4 +1,6 @@
 class Board{
+
+  // The Board needs to have a size in two dimensions, as well as a 2D array of blocks
   int x_size, y_size;
   Block[][] blocks_grid;
   color p_col = color(255, 0, 0); // defaulting to red right now, the current color solution is a temporary workaround.
